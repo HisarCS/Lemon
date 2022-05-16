@@ -13,6 +13,10 @@ kodun içinde bir çok yerde değişken kullanmaktayız, bunlardan önemli 2'si 
 ![image](https://user-images.githubusercontent.com/63399574/168583217-9bc4b848-a462-43c8-8375-75b5fbf20a6b.png)
 bunlar femur ve tibia'nın hareketinde kullandığımız değerleri loop'un dışında tanımlamamızı sağlar.
 # Metodlar
+2 tane metod tanımladık, birisi ultrasonik sensörümüzle mesafe ölçmemizi sağlayan dist, öbürü ise küçük bir teknik detaydan dolayı servoların titremesini engelleyen stop metodudur.
+
+![image](https://user-images.githubusercontent.com/63399574/168583556-341ae35c-86e5-40fa-a6b5-6336cdc6f90b.png)
+
 
 # Değişkenler
 
