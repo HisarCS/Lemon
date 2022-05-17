@@ -1,22 +1,65 @@
 
 Introduction
+-----------------
+
+
+Requirements
 ------------------
+
+Parts List
+~~~~~~~~~~~~~~~~~~~~~~
+
+Software Requirements
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+Required Knowledge
+------------------
+
+Prototyping/Mechanics
+~~~~~~~~~~~~~~~~~~~~~~
+
+Electronics
+~~~~~~~~~~~~~~~~~~~~~~
+
+Python/MicroPython
+~~~~~~~~~~~~~~~~~~~~~~
+
 
 Assembly
 ------------------
 
+Assembly of the chassis
+~~~~~~~~~~~~~~~~~~~~~~
 
-Disassembly
+Setting up the Pico
+~~~~~~~~~~~~~~~~~~~~~~
+
+Configuring the Pico for our robot
+~~~~~~~~~~~~~~~~~~~~~~
+
+Finishing the assembly
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+Code
 ------------------
 
+Imports
+~~~~~~~~~~~~~~~~~~~~~~
 
-Code documentation
-------------------
+Declarations
+~~~~~~~~~~~~~~~~~~~~~~
+
+Methods/Functions
+~~~~~~~~~~~~~~~~~~~~~~
+
+Loops and Commands
+~~~~~~~~~~~~~~~~~~~~~~
 
 
 Try it yourself!
-------------------
-
+-----------------
 
     
     
