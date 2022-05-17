@@ -67,7 +67,7 @@ Try it yourself!
     :maxdepth: 1
     :caption: Requirements
     
-    Requirements/assemble
+    Requirements/PartsList
 
 
 .. toctree::
