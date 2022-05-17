@@ -21,5 +21,18 @@ Try it yourself!
     :maxdepth: 1
     :caption: Course information
     
-    try/ass
+
+    
+    
+.. toctree::
+    :maxdepth: 1
+    :caption: Assembly
+    
+    1. Assembly/assemble
+    
+.. toctree::
+    :maxdepth: 1
+    :caption: Configuration
+    
+    2. Configuration/Configuring the Pico
   
