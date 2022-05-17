@@ -65,13 +65,32 @@ Try it yourself!
     
 .. toctree::
     :maxdepth: 1
-    :caption: Assembly
+    :caption: Requirements
     
-    1. Assembly/assemble
+    Requirements/assemble
+
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Required Knowledge
+    
+    PrevKnowledge/Prototyping
     
 .. toctree::
     :maxdepth: 1
-    :caption: Configuration
+    :caption: Assembly
     
-    2. Configuration/Configuring the Pico
+    Assembly/ChassisAssembly
+    
+.. toctree::
+    :maxdepth: 1
+    :caption: Code
+    
+    Code/Imports
+    
+.. toctree::
+    :maxdepth: 1
+    :caption: Try it yourself!
+    
+    tryyourself/owndesign
   
