@@ -1,3 +1,5 @@
+.. try::
+
 * a bullet point using "*"
 
   - a sub-list using "-"
