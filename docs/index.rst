@@ -20,5 +20,6 @@ Try it yourself!
 .. toctree::
     :maxdepth: 1
     :caption: Course information
+    
+    try/ass
   
-    ass
