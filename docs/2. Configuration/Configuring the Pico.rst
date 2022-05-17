@@ -1,6 +1,6 @@
 .. _my-reference-label:
 
-Configuring
+Configuring the Pico
 --------------------------
 
 * a bullet point using "*"
