@@ -1,4 +1,4 @@
-
+.. _my-reference-label:
 
 Configuring the Pico
 --------------------------
