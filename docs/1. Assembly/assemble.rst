@@ -1,3 +1,8 @@
+.. _my-reference-label:
+
+Assembly
+--------------------------
+
 * a bullet point using "*"
 
   - a sub-list using "-"
