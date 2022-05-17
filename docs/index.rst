@@ -21,4 +21,4 @@ Try it yourself!
     :maxdepth: 1
     :caption: Course information
   
-    1.Assembly/assemble
+    1. Assembly/assemble
