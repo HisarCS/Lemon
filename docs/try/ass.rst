@@ -1,4 +1,8 @@
-.. try::
+.. _my-reference-label:
+
+Assembly
+--------------------------
+
 
 * a bullet point using "*"
 
