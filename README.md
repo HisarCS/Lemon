@@ -2,6 +2,7 @@
 
 Merhabalar! Burada Lemon robotun kodunu açıklayacağız.
 ## Bazı gereken bilgiler
+8 thread olsa simultanious bacak çalıştırabilecektik
 
 # Import
 Kodumuzda micropython'da mevcut olan başka kütüphaneleri de kullanmaktayız. Bu kütüphaneler parçaları bağladığımız pin değerlerini, arada kullandığımız sleep kodunu, pwm ve uart sinyallerini kullanmamızı sağlar.
