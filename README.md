@@ -4,7 +4,7 @@ Merhabalar! Burada Lemon robotun kodunu açıklayacağız.
 ## Bazı gereken bilgiler
 8 thread olsa simultanious bacak çalıştırabilecektik
 ### important: eğer simultaneous olayı olmazsa thread start ettiğin gibi lock et sonra ikinci thread start ettiğinden emin olduğunda ikisini release et. 
-
+çağırdığın metodda queque argumanı aç ondan sonra ana modulunde bir queque objesi açıyorsun bir argüman olarak yaratıyorsun secondary obje yaratırken o arguman queque ya değer atıyorsun sonra o değeri de asıl queque!yu açtığın modülden geri alıyorsun böylelikle thread!i safe bir şekilde kapatabiliyorsun
 # Import
 Kodumuzda micropython'da mevcut olan başka kütüphaneleri de kullanmaktayız. Bu kütüphaneler parçaları bağladığımız pin değerlerini, arada kullandığımız sleep kodunu, pwm ve uart sinyallerini kullanmamızı sağlar.
 
