@@ -1,9 +1,4 @@
-# pca9685.py
-# Kevin McAleer
-# March 2021
-'''
-@author Kevin McAleer
-'''
+
 
 import ustruct
 from time import sleep, sleep_us
@@ -14,22 +9,23 @@ class PCA9685:
     This class models the PCA9685 board, used to control up to 16
     servos, using just 2 wires for control over the I2C interface
     """
-    def __init__(self, i2c, address=0x40):
-        """
+    address=0
+    def __init__(self, i2c, _address):
+        """ 
         class constructor
 
-        Args:
+        Args: 
             i2c ([I2C Class, from the build in machine library]): This is used to 
             bring in the i2c object, which can be created by 
             > i2c = I2C(id=0, sda=Pin(0), scl=Pin(1))
             address (hexadecimal, optional): [description]. Defaults to 0x40.
         """
         self.i2c = i2c
-        self.address = address
+        self.address = _address
         self.reset()
         
     def _write(self, address, value):
-         self.i2c.writeto_mem(0x4b, address, bytearray([value])) 
+         self.i2c.writeto_mem(0x40, address, bytearray([value]))
 # 0x4b yerine 0x68 geçebilir  veya 0x70 veya self.address
     def _read(self, address):
         return self.i2c.readfrom_mem(self.address, address, 1)[0]
@@ -57,6 +53,7 @@ class PCA9685:
             return ustruct.unpack('<HH', data)
         data = ustruct.pack('<HH', on, off)
         self.i2c.writeto_mem(self.address, 0x06 + 4 * index,  data)
+        self.i2c
 
     def duty(self, index, value=None, invert=False):
         if value is None:

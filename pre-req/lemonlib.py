@@ -100,3 +100,6 @@ class Ultrasonic(LemonCore):
        distance = (timepassed * 0.0343) / 2
        return distance
 
+class Gyroscope(LemonCore):
+    
+    def __init__(self):
