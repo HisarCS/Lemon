@@ -63,7 +63,7 @@ class Servo():
             sleep(time)
             print(iteration)
             cura = cura + -abs(delta) # this is for minimizing any runtime errors that can be caused when the function is called
-            duty = map_angle(cura, 0, 180, 0, 4096)
+            duty = map_angle(angle_value, 0, 180, 1142, 8519)
             self.pca9685.duty(index=channel, value=duty)
             self.__current_angle = cura
             self.__change = iteration + abs(delta)
@@ -74,7 +74,7 @@ class Servo():
             print(cura)
             cura = cura + abs(delta)    
             self.__current_angle = cura
-            duty = map_angle(cura, 0, 180, 0, 4096)
+            duty = map_angle(angle_value, 0, 180, 1142, 8519)
 
             self.pca9685.duty(index=channel, value=duty)
             self.__change = iteration + abs(delta)
